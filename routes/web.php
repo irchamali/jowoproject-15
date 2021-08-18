@@ -30,3 +30,9 @@ Route::get('/about', function () {
 Route::get('/posts', function () {
     return view('posts');
 });
+
+Route::get('/gallery', function () {
+    return view('gallery', [
+        "title" => "Gallery"
+    ]);
+});

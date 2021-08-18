@@ -57,7 +57,7 @@
         <div class="copyright">
             &copy; Copyright <strong><span>PB PMII</span></strong> 2021
         </div>
-        <div class="credits">Designed by <a href="https://jowokode.com/">Jowokode</a>
+        <div class="credits">Dev. by <a href="https://jowokode.com/">Jowokode</a>
         </div>
     </div>
 </footer>
