@@ -36,3 +36,15 @@ Route::get('/gallery', function () {
         "title" => "Gallery"
     ]);
 });
+
+Route::get('/team', function() {
+    return view('team', [
+        "title" => "Team"
+    ]);
+});
+
+Route::get('/contact', function() {
+    return view('contact', [
+        "title" => "Contact"
+    ]);
+});
