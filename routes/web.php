@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        "title" => "PB PMII - Pengurus Besar Pergerakan Mahasiswa Islam Indonesia"
+    ]);
 });
 
 Route::get('/about', function () {
